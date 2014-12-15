@@ -1,4 +1,4 @@
-__author__ = 'root'
+__author__ = 'papershoppe'
 
 import unittest
 from score.team import Team

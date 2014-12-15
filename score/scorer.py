@@ -1,4 +1,4 @@
-__author__ = 'root'
+__author__ = 'papershoppe'
 
 """ Scorer Module """
 
@@ -16,5 +16,5 @@ class Scorer(object):
         """ Getter Method """
         return self.teams.get(team_name)
 
-    def add_score(self, team, score):
-        self.teams[team.team_name] += score
+    def add_score(self, team, score_add):
+        self.teams[team.team_name] = team.score + score_add
